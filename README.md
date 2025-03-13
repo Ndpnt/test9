@@ -1,8 +1,16 @@
-# Declarations of terms tracked in the *<!-- here goes your collection name -->Demo<!-- until here -->* collection
+> [!IMPORTANT]
+> *To finalize the setup of your repository, follow these steps:*
+> 1. *Update collection metadata in [`metadata.yml`](./metadata.yml), following the [documentation](https://docs.opentermsarchive.org/collections/reference/metadata/)*
+> 2. *Enable the AllContributors bot by following [this link](https://github.com/apps/allcontributors/installations/new)*
+> 3. *Update deployment files in [`deployment/`](./deployment/) following the [documentation](https://docs.opentermsarchive.org/deployment/how-to/deploy/)*
+> 4. *Remove this setup section from this README.md file*
+> 5. *Start adding terms declarations in the [`declarations/`](./declarations/) directory following the [documentation](https://docs.opentermsarchive.org/terms/tutorials/track/#step-2-create-the-service-declaration)*
+
+# Declarations of terms tracked in the *test9* collection
 
 The terms in this collection are declared by <!-- customize to your context -->the Open Terms Archive Core Team<!-- until here --> and tracked using [Open Terms Archive](https://opentermsarchive.org).
 
-You can [explore the tracked versions](https://github.com/OpenTermsArchive/demo-versions) interactively or [download them as a dataset](https://github.com/OpenTermsArchive/demo-versions/releases) in the `OpenTermsArchive/demo-versions` repository.
+You can [explore the tracked versions](https://github.com/Ndpnt/test9-versions) interactively or [download them as a dataset](https://github.com/Ndpnt/test9-versions/releases) in the `Ndpnt/test9-versions` repository.
 
 ## Scope
 

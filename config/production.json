@@ -4,8 +4,8 @@
       "versions": {
         "storage": {
           "git": {
-            "snapshotIdentiferTemplate": "https://github.com/OpenTermsArchive/demo-snapshots/commit/%SNAPSHOT_ID",
-            "repository": "git@github.com:OpenTermsArchive/demo-versions.git",
+            "snapshotIdentiferTemplate": "https://github.com/Ndpnt/test9-snapshots/commit/%SNAPSHOT_ID",
+            "repository": "git@github.com:Ndpnt/test9-versions.git",
             "path": "./data/versions"
           }
         }
@@ -13,7 +13,7 @@
       "snapshots": {
         "storage": {
           "git": {
-            "repository": "git@github.com:OpenTermsArchive/demo-snapshots.git",
+            "repository": "git@github.com:Ndpnt/test9-snapshots.git",
             "path": "./data/snapshots"
           }
         }
@@ -31,27 +31,20 @@
     "reporter": {
       "githubIssues": {
         "repositories": {
-          "declarations": "OpenTermsArchive/demo-declarations",
-          "versions": "OpenTermsArchive/demo-versions",
-          "snapshots": "OpenTermsArchive/demo-snapshots"
+          "declarations": "Ndpnt/test9-declarations",
+          "versions": "Ndpnt/test9-versions",
+          "snapshots": "Ndpnt/test9-snapshots"
         }
       }
     },
     "dataset": {
-      "title": "demo",
-      "versionsRepositoryURL": "https://github.com/OpenTermsArchive/demo-versions"
+      "title": "test9",
+      "versionsRepositoryURL": "https://github.com/Ndpnt/test9-versions"
     },
     "collection-api": {
       "port": 3000,
       "basePath": "/collection-api"
     },
-    "logger": {
-      "timestampPrefix": false
-    }
-  },
-  "@opentermsarchive/federation-api": {
-    "port": 3003,
-    "basePath": "/federation-api",
     "logger": {
       "timestampPrefix": false
     }
